@@ -7,6 +7,10 @@
 
 import Foundation
 public class CommonClass {
+    public init() {
+        
+    }
+    
     public func callArticleService() -> String {
         return "Network Serivice called"
     }
